@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Privacy Policy for Tap Rush by Northframe Technologies.">
+    <meta name="description" content="Privacy Policy for Tap Rush by Northframe Technologies, including local game data, Google Mobile Ads, consent and privacy choices.">
     <meta name="theme-color" content="#07101f">
     <meta property="og:title" content="Tap Rush Privacy Policy | Northframe Technologies">
-    <meta property="og:description" content="Privacy information for Tap Rush, including local game data, advertising, consent choices, and data handling.">
+    <meta property="og:description" content="Privacy information for Tap Rush, including local game data, Google Mobile Ads data, consent choices, US state privacy choices, and data handling.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jayryan6129.github.io/northframe-legal/tap-rush/privacy/">
-
     <title>Tap Rush Privacy Policy | Northframe Technologies</title>
 
     <style>
@@ -17,8 +16,6 @@
             --bg: #07101f;
             --bg-deep: #050a13;
             --surface: rgba(17, 26, 43, 0.78);
-            --surface-strong: #0f192b;
-            --surface-soft: #132039;
             --text: #f6f8fc;
             --muted: #aab7ca;
             --muted-strong: #cad3df;
@@ -35,14 +32,8 @@
             --max-width: 1180px;
         }
 
-        * {
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
         body {
             margin: 0;
             font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -54,16 +45,8 @@
                 linear-gradient(180deg, var(--bg), var(--bg-deep));
             min-height: 100vh;
         }
-
-        a {
-            color: inherit;
-        }
-
-        .site-shell {
-            width: min(var(--max-width), calc(100% - 36px));
-            margin: 0 auto;
-        }
-
+        a { color: inherit; }
+        .site-shell { width: min(var(--max-width), calc(100% - 36px)); margin: 0 auto; }
         .topbar {
             position: sticky;
             top: 0;
@@ -73,433 +56,116 @@
             background: rgba(5, 10, 19, 0.78);
             border-bottom: 1px solid var(--line);
         }
-
-        .nav {
-            min-height: 72px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-        }
-
-        .brand {
-            display: inline-flex;
-            align-items: center;
-            gap: 12px;
-            text-decoration: none;
-            font-weight: 800;
-            letter-spacing: -0.02em;
-        }
-
+        .nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+        .brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font-weight: 800; letter-spacing: -0.02em; }
         .brand-mark {
-            width: 38px;
-            height: 38px;
-            display: grid;
-            place-items: center;
-            border-radius: 12px;
+            width: 38px; height: 38px; display: grid; place-items: center; border-radius: 12px;
             background: linear-gradient(135deg, rgba(105,220,255,.20), rgba(168,139,255,.22));
             border: 1px solid var(--line-strong);
-            box-shadow: inset 0 0 0 1px rgba(255,255,255,.03);
         }
-
-        .brand-mark::before {
-            content: "N";
-            font-weight: 900;
-            color: var(--primary-strong);
-        }
-
-        .brand-copy {
-            display: flex;
-            flex-direction: column;
-            line-height: 1.15;
-        }
-
-        .brand-copy small {
-            color: var(--muted);
-            font-size: 0.72rem;
-            font-weight: 700;
-            letter-spacing: .08em;
-            text-transform: uppercase;
-            margin-top: 4px;
-        }
-
+        .brand-mark::before { content: "N"; font-weight: 900; color: var(--primary-strong); }
+        .brand-copy { display: flex; flex-direction: column; line-height: 1.15; }
+        .brand-copy small { color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; margin-top: 4px; }
         .nav-link {
-            text-decoration: none;
-            color: var(--muted-strong);
-            font-weight: 700;
-            font-size: .94rem;
-            padding: 10px 14px;
-            border-radius: 10px;
-            border: 1px solid var(--line);
-            background: rgba(255,255,255,.03);
-            transition: .2s ease;
+            text-decoration: none; color: var(--muted-strong); font-weight: 700; font-size: .94rem;
+            padding: 10px 14px; border-radius: 10px; border: 1px solid var(--line); background: rgba(255,255,255,.03);
         }
-
-        .nav-link:hover {
-            color: var(--text);
-            border-color: var(--line-strong);
-            background: rgba(255,255,255,.06);
-        }
-
-        .hero {
-            padding: 84px 0 46px;
-        }
-
+        .nav-link:hover { color: var(--text); border-color: var(--line-strong); background: rgba(255,255,255,.06); }
+        .hero { padding: 84px 0 46px; }
         .eyebrow {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 7px 12px;
-            border: 1px solid var(--line);
-            border-radius: 999px;
-            background: rgba(255,255,255,.035);
-            color: var(--muted-strong);
-            font-size: .84rem;
-            font-weight: 800;
-            letter-spacing: .04em;
-            text-transform: uppercase;
+            display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border: 1px solid var(--line);
+            border-radius: 999px; background: rgba(255,255,255,.035); color: var(--muted-strong);
+            font-size: .84rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
         }
-
-        h1 {
-            margin: 20px 0 16px;
-            max-width: 860px;
-            font-size: clamp(2.8rem, 7vw, 5.8rem);
-            line-height: 1;
-            letter-spacing: -0.055em;
-        }
-
-        .gradient-text {
-            background: linear-gradient(90deg, var(--primary), var(--secondary));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-
-        .hero-copy {
-            max-width: 780px;
-            margin: 0;
-            color: var(--muted);
-            font-size: clamp(1rem, 2vw, 1.18rem);
-        }
-
-        .meta-row {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            margin-top: 28px;
-        }
-
+        h1 { margin: 20px 0 16px; max-width: 860px; font-size: clamp(2.8rem, 7vw, 5.8rem); line-height: 1; letter-spacing: -0.055em; }
+        .gradient-text { background: linear-gradient(90deg, var(--primary), var(--secondary)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+        .hero-copy { max-width: 780px; margin: 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.18rem); }
+        .meta-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
         .meta-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            min-height: 38px;
-            padding: 0 12px;
-            border-radius: 999px;
-            color: var(--muted-strong);
-            background: rgba(255,255,255,.035);
-            border: 1px solid var(--line);
-            font-size: .9rem;
+            display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 12px;
+            border-radius: 999px; color: var(--muted-strong); background: rgba(255,255,255,.035); border: 1px solid var(--line); font-size: .9rem;
         }
-
-        .meta-dot {
-            width: 7px;
-            height: 7px;
-            border-radius: 50%;
-            background: var(--success);
-            box-shadow: 0 0 14px rgba(127, 226, 181, .45);
-        }
-
-        .layout {
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) 260px;
-            gap: 28px;
-            align-items: start;
-            padding-bottom: 72px;
-        }
-
+        .meta-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--success); box-shadow: 0 0 14px rgba(127, 226, 181, .45); }
+        .layout { display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 28px; align-items: start; padding-bottom: 72px; }
         .policy-card {
             background: linear-gradient(180deg, rgba(17,26,43,.92), rgba(12,20,34,.94));
-            border: 1px solid var(--line);
-            border-radius: var(--radius-xl);
-            box-shadow: var(--shadow);
-            overflow: hidden;
+            border: 1px solid var(--line); border-radius: var(--radius-xl); box-shadow: var(--shadow); overflow: hidden;
         }
-
-        .policy-content {
-            padding: clamp(24px, 5vw, 54px);
-        }
-
+        .policy-content { padding: clamp(24px, 5vw, 54px); }
         .policy-intro {
-            margin: 0 0 36px;
-            padding: 20px 22px;
-            border: 1px solid rgba(105, 220, 255, .18);
-            border-radius: var(--radius-lg);
-            background: linear-gradient(135deg, rgba(105,220,255,.07), rgba(168,139,255,.055));
-            color: var(--muted-strong);
+            margin: 0 0 36px; padding: 20px 22px; border: 1px solid rgba(105, 220, 255, .18);
+            border-radius: var(--radius-lg); background: linear-gradient(135deg, rgba(105,220,255,.07), rgba(168,139,255,.055)); color: var(--muted-strong);
         }
-
-        .section {
-            scroll-margin-top: 100px;
-            padding: 34px 0;
-            border-top: 1px solid var(--line);
-        }
-
-        .section:first-of-type {
-            border-top: 0;
-            padding-top: 0;
-        }
-
+        .section { scroll-margin-top: 100px; padding: 34px 0; border-top: 1px solid var(--line); }
+        .section:first-of-type { border-top: 0; padding-top: 0; }
         .section-number {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-width: 34px;
-            height: 34px;
-            margin-bottom: 12px;
-            padding: 0 9px;
-            border-radius: 10px;
-            font-weight: 900;
-            font-size: .85rem;
-            color: #06111a;
+            display: inline-flex; align-items: center; justify-content: center; min-width: 34px; height: 34px; margin-bottom: 12px;
+            padding: 0 9px; border-radius: 10px; font-weight: 900; font-size: .85rem; color: #06111a;
             background: linear-gradient(135deg, var(--primary), var(--primary-strong));
         }
-
-        h2 {
-            margin: 0 0 14px;
-            font-size: clamp(1.45rem, 3vw, 2rem);
-            line-height: 1.2;
-            letter-spacing: -0.03em;
-        }
-
-        p {
-            margin: 0 0 16px;
-            color: var(--muted-strong);
-        }
-
-        p:last-child {
-            margin-bottom: 0;
-        }
-
-        strong {
-            color: var(--text);
-        }
-
-        ul {
-            margin: 16px 0 18px;
-            padding: 0;
-            list-style: none;
-            display: grid;
-            gap: 10px;
-        }
-
+        h2 { margin: 0 0 14px; font-size: clamp(1.45rem, 3vw, 2rem); line-height: 1.2; letter-spacing: -0.03em; }
+        p { margin: 0 0 16px; color: var(--muted-strong); }
+        p:last-child { margin-bottom: 0; }
+        strong { color: var(--text); }
+        ul { margin: 16px 0 18px; padding: 0; list-style: none; display: grid; gap: 10px; }
         li {
-            position: relative;
-            padding: 12px 14px 12px 42px;
-            color: var(--muted-strong);
-            background: rgba(255,255,255,.025);
-            border: 1px solid var(--line);
-            border-radius: var(--radius-md);
+            position: relative; padding: 12px 14px 12px 42px; color: var(--muted-strong);
+            background: rgba(255,255,255,.025); border: 1px solid var(--line); border-radius: var(--radius-md);
         }
-
         li::before {
-            content: "✓";
-            position: absolute;
-            left: 14px;
-            top: 11px;
-            width: 20px;
-            height: 20px;
-            display: grid;
-            place-items: center;
-            border-radius: 50%;
-            background: rgba(127,226,181,.12);
-            color: var(--success);
-            font-size: .75rem;
-            font-weight: 900;
+            content: "✓"; position: absolute; left: 14px; top: 11px; width: 20px; height: 20px; display: grid;
+            place-items: center; border-radius: 50%; background: rgba(127,226,181,.12); color: var(--success); font-size: .75rem; font-weight: 900;
         }
-
-        .policy-link {
-            color: var(--primary-strong);
-            text-decoration: none;
-            font-weight: 800;
-        }
-
-        .policy-link:hover {
-            text-decoration: underline;
-        }
-
+        .policy-link { color: var(--primary-strong); text-decoration: none; font-weight: 800; }
+        .policy-link:hover { text-decoration: underline; }
         .contact-box {
-            margin-top: 12px;
-            padding: 20px;
-            border-radius: var(--radius-lg);
-            border: 1px solid rgba(168,139,255,.20);
+            margin-top: 12px; padding: 20px; border-radius: var(--radius-lg); border: 1px solid rgba(168,139,255,.20);
             background: linear-gradient(135deg, rgba(168,139,255,.08), rgba(105,220,255,.045));
         }
-
-        .contact-box a {
-            color: var(--primary-strong);
-            text-decoration: none;
-            font-weight: 800;
-        }
-
+        .contact-box a { color: var(--primary-strong); text-decoration: none; font-weight: 800; }
         .toc {
-            position: sticky;
-            top: 94px;
-            padding: 18px;
-            border-radius: var(--radius-lg);
-            border: 1px solid var(--line);
-            background: rgba(13, 22, 38, .82);
-            backdrop-filter: blur(14px);
-            -webkit-backdrop-filter: blur(14px);
+            position: sticky; top: 94px; padding: 18px; border-radius: var(--radius-lg); border: 1px solid var(--line);
+            background: rgba(13, 22, 38, .82); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
         }
-
-        .toc-title {
-            margin: 0 0 12px;
-            color: var(--text);
-            font-weight: 900;
-            font-size: .95rem;
-        }
-
-        .toc nav {
-            display: grid;
-            gap: 4px;
-        }
-
-        .toc a {
-            display: block;
-            padding: 8px 10px;
-            color: var(--muted);
-            text-decoration: none;
-            font-size: .86rem;
-            border-radius: 8px;
-            transition: .18s ease;
-        }
-
-        .toc a:hover {
-            color: var(--text);
-            background: rgba(255,255,255,.045);
-        }
-
-        .toc-note {
-            margin-top: 14px;
-            padding-top: 14px;
-            border-top: 1px solid var(--line);
-            color: var(--muted);
-            font-size: .8rem;
-        }
-
-        footer {
-            border-top: 1px solid var(--line);
-            padding: 30px 0 42px;
-            color: var(--muted);
-        }
-
-        .footer-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .footer-brand {
-            color: var(--text);
-            font-weight: 900;
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 16px;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: var(--muted-strong);
-            text-decoration: none;
-            font-weight: 700;
-            font-size: .9rem;
-        }
-
-        .footer-links a:hover {
-            color: var(--text);
-        }
-
+        .toc-title { margin: 0 0 12px; color: var(--text); font-weight: 900; font-size: .95rem; }
+        .toc nav { display: grid; gap: 4px; }
+        .toc a { display: block; padding: 8px 10px; color: var(--muted); text-decoration: none; font-size: .86rem; border-radius: 8px; }
+        .toc a:hover { color: var(--text); background: rgba(255,255,255,.045); }
+        .toc-note { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
+        footer { border-top: 1px solid var(--line); padding: 30px 0 42px; color: var(--muted); }
+        .footer-row { display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+        .footer-brand { color: var(--text); font-weight: 900; }
+        .footer-links { display: flex; gap: 16px; flex-wrap: wrap; }
+        .footer-links a { color: var(--muted-strong); text-decoration: none; font-weight: 700; font-size: .9rem; }
+        .footer-links a:hover { color: var(--text); }
         @media (max-width: 920px) {
-            .layout {
-                grid-template-columns: 1fr;
-            }
-
-            .toc {
-                position: static;
-                order: -1;
-            }
-
-            .toc nav {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
+            .layout { grid-template-columns: 1fr; }
+            .toc { position: static; order: -1; }
+            .toc nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         }
-
         @media (max-width: 620px) {
-            .site-shell {
-                width: min(100% - 22px, var(--max-width));
-            }
-
-            .nav {
-                min-height: 64px;
-            }
-
-            .brand-copy small {
-                display: none;
-            }
-
-            .nav-link {
-                padding: 8px 10px;
-                font-size: .84rem;
-            }
-
-            .hero {
-                padding-top: 58px;
-            }
-
-            .meta-row {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-
-            .meta-pill {
-                width: 100%;
-            }
-
-            .toc nav {
-                grid-template-columns: 1fr;
-            }
-
-            .policy-content {
-                padding: 24px 18px;
-            }
+            .site-shell { width: min(100% - 22px, var(--max-width)); }
+            .nav { min-height: 64px; }
+            .brand-copy small { display: none; }
+            .nav-link { padding: 8px 10px; font-size: .84rem; }
+            .hero { padding-top: 58px; }
+            .meta-row { display: grid; grid-template-columns: 1fr; }
+            .meta-pill { width: 100%; }
+            .toc nav { grid-template-columns: 1fr; }
+            .policy-content { padding: 24px 18px; }
         }
-
         @media (prefers-reduced-motion: reduce) {
-            html {
-                scroll-behavior: auto;
-            }
-
-            * {
-                transition: none !important;
-            }
+            html { scroll-behavior: auto; }
+            * { transition: none !important; }
         }
     </style>
 </head>
 <body>
-
 <header class="topbar">
     <div class="site-shell nav">
         <a class="brand" href="https://jayryan6129.github.io/" aria-label="Northframe Technologies home">
             <span class="brand-mark" aria-hidden="true"></span>
-            <span class="brand-copy">
-                Northframe Technologies
-                <small>Developer & Privacy</small>
-            </span>
+            <span class="brand-copy">Northframe Technologies<small>Developer & Privacy</small></span>
         </a>
         <a class="nav-link" href="https://jayryan6129.github.io/">Back to Developer Site</a>
     </div>
@@ -509,14 +175,10 @@
     <section class="hero">
         <span class="eyebrow">Tap Rush · Privacy</span>
         <h1>Privacy built into the <span class="gradient-text">Tap Rush experience.</span></h1>
-        <p class="hero-copy">
-            This policy explains how Tap Rush handles local game data, advertising, consent choices,
-            and third-party services used to support the game.
-        </p>
-
+        <p class="hero-copy">This policy explains how Tap Rush handles local game data, advertising, consent and opt-out choices, and third-party services used to support the game.</p>
         <div class="meta-row" aria-label="Policy information">
             <span class="meta-pill"><span class="meta-dot" aria-hidden="true"></span> Effective August 12, 2026</span>
-            <span class="meta-pill">Last updated August 12, 2026</span>
+            <span class="meta-pill">Last updated September 14, 2026</span>
             <span class="meta-pill">Developer: Northframe Technologies</span>
         </div>
     </section>
@@ -524,20 +186,12 @@
     <div class="layout">
         <article class="policy-card">
             <div class="policy-content">
-                <p class="policy-intro">
-                    Northframe Technologies respects your privacy. This Privacy Policy explains how the mobile game
-                    <strong>Tap Rush</strong> handles information, how advertising services are used, and the privacy
-                    choices available to users.
-                </p>
+                <p class="policy-intro">Northframe Technologies respects your privacy. This Privacy Policy explains how the mobile game <strong>Tap Rush</strong> handles information, how advertising services are used, and the privacy choices available to users.</p>
 
                 <section class="section" id="information-you-provide">
                     <span class="section-number">01</span>
                     <h2>Information You Provide</h2>
-                    <p>
-                        Tap Rush does not require a user account and does not ask users to provide a name, email address,
-                        phone number, contacts, photos, microphone recordings, payment-card information, or precise
-                        location in order to play the game.
-                    </p>
+                    <p>Tap Rush does not require a user account and does not ask users to provide a name, email address, phone number, contacts, photos, microphone recordings, payment-card information, or precise location in order to play the game.</p>
                 </section>
 
                 <section class="section" id="local-game-data">
@@ -551,141 +205,88 @@
                         <li>Tutorial-completion status</li>
                         <li>Local counters and timestamps used to keep interstitial ads infrequent</li>
                     </ul>
-                    <p>
-                        This game data is used to provide Tap Rush functionality and remains locally on the device.
-                        Northframe Technologies does not operate a Tap Rush user-account, cloud-save, or remote score
-                        database for this release.
-                    </p>
+                    <p>This game data is used to provide Tap Rush functionality and remains locally on the device. Northframe Technologies does not operate a Tap Rush user-account, cloud-save, or remote score database for this release.</p>
+                    <p><strong>Android backup is disabled for Tap Rush in this release.</strong> Tap Rush does not intentionally back up this local gameplay state through Android Auto Backup.</p>
                 </section>
 
                 <section class="section" id="advertising">
                     <span class="section-number">03</span>
                     <h2>Advertising</h2>
-                    <p>
-                        Tap Rush uses <strong>Google AdMob</strong> through the Google Mobile Ads SDK to display a limited
-                        number of advertisements.
-                    </p>
+                    <p>Tap Rush uses <strong>Google AdMob</strong> through the Google Mobile Ads SDK to display a limited number of advertisements.</p>
                     <ul>
                         <li><strong>Rewarded ads</strong> are optional and are shown only when a user chooses to watch an ad in exchange for a clearly described gameplay benefit, such as an additional life or a revive.</li>
                         <li><strong>Interstitial ads</strong> may appear at natural Game Over transitions. Tap Rush intentionally limits their frequency and does not display interstitial ads during active gameplay.</li>
                         <li>Tap Rush does not use banner ads, app-open ads, or forced ads between normal gameplay levels in this release.</li>
                     </ul>
-                    <p>
-                        Ads may be personalized or non-personalized depending on user choices, device settings, region,
-                        applicable laws, and Google's advertising policies.
-                    </p>
+                    <p>Ads may be personalized, non-personalized, or otherwise limited depending on user choices, device settings, region, applicable laws, consent status, and Google's advertising policies.</p>
                 </section>
 
                 <section class="section" id="google-mobile-ads">
                     <span class="section-number">04</span>
                     <h2>Data Processed by Google Mobile Ads</h2>
-                    <p>
-                        Google states that the Google Mobile Ads SDK may automatically collect and share certain
-                        information for advertising, analytics, and fraud-prevention purposes. Depending on device
-                        settings and availability, this can include:
-                    </p>
+                    <p>According to Google's current Google Mobile Ads SDK disclosure, the SDK automatically collects and shares certain information by default for <strong>advertising or marketing, analytics, and fraud prevention, security, and compliance</strong> purposes. This can include:</p>
                     <ul>
-                        <li>IP address, which may be used to estimate general location</li>
-                        <li>User product interactions, including app and advertising interactions</li>
-                        <li>Diagnostic and performance information</li>
-                        <li>Device and account identifiers, including the Android advertising ID when available and permitted</li>
+                        <li><strong>Approximate location:</strong> an IP address that may be used to estimate the general location of a device</li>
+                        <li><strong>App interactions:</strong> user product interactions such as app launches, taps, video views, and advertising interactions</li>
+                        <li><strong>Diagnostics:</strong> information related to app and SDK performance, such as launch time, hang rate, and energy usage</li>
+                        <li><strong>Device or other IDs:</strong> device and account identifiers, including the Android advertising ID when available and permitted, App Set ID, and other applicable identifiers</li>
                     </ul>
-                    <p>
-                        Google states that information collected by the Google Mobile Ads SDK is encrypted in transit
-                        using Transport Layer Security (TLS).
-                    </p>
-                    <p>
-                        Northframe Technologies may receive aggregated advertising and performance reports through
-                        Google AdMob, such as ad requests, impressions, interactions, estimated earnings, and related
-                        performance metrics.
-                    </p>
-                    <p>
-                        For additional information about Google's data practices, please review
-                        <a class="policy-link" href="https://policies.google.com/privacy" rel="noopener noreferrer">Google's Privacy Policy</a>.
-                    </p>
+                    <p>Google states that information collected by the Google Mobile Ads SDK is encrypted in transit using Transport Layer Security (TLS).</p>
+                    <p>Northframe Technologies may receive aggregated advertising and performance reports through Google AdMob, such as ad requests, impressions, interactions, estimated earnings, and related performance metrics.</p>
+                    <p>For additional information, review <a class="policy-link" href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Google's Mobile Ads data disclosure</a> and <a class="policy-link" href="https://policies.google.com/privacy" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
                 </section>
 
                 <section class="section" id="consent">
                     <span class="section-number">05</span>
                     <h2>Consent and Privacy Choices</h2>
-                    <p>
-                        Tap Rush uses Google's <strong>User Messaging Platform (UMP)</strong> to request and manage
-                        advertising-related privacy choices where required. When a privacy options entry point is required,
-                        Tap Rush provides a <strong>Privacy Choices</strong> option in the app so users can review or change
-                        applicable choices.
-                    </p>
-                    <p>
-                        Users may also manage or reset advertising identifiers and related privacy controls through their
-                        Android device and Google settings where available.
-                    </p>
+                    <p>Tap Rush uses Google's <strong>User Messaging Platform (UMP)</strong> to request and manage advertising-related privacy choices where required.</p>
+                    <ul>
+                        <li><strong>European regulations:</strong> for applicable users in the EEA, United Kingdom, and Switzerland, Tap Rush can present Google's consent message with options to consent, not consent, or manage choices.</li>
+                        <li><strong>US state privacy regulations:</strong> for users in supported US states, Tap Rush can present Google's privacy message allowing applicable users to opt out of the sale or sharing of their data.</li>
+                        <li><strong>Privacy Choices:</strong> when Google indicates that a privacy-options entry point is required, Tap Rush provides a Privacy Choices option so users can review or change applicable choices.</li>
+                    </ul>
+                    <p>Users may also manage or reset advertising identifiers and related privacy controls through their Android device and Google settings where available.</p>
                 </section>
 
                 <section class="section" id="data-sharing">
                     <span class="section-number">06</span>
                     <h2>Data Sharing</h2>
-                    <p>
-                        Northframe Technologies does not sell users' locally stored Tap Rush game data. Advertising-related
-                        information may be processed or shared with Google as described above in order to provide
-                        advertising, analytics, security, and fraud-prevention functionality.
-                    </p>
+                    <p>Northframe Technologies does not sell users' locally stored Tap Rush gameplay data. Advertising-related information described above may be collected and shared with Google through the Google Mobile Ads SDK for advertising or marketing, analytics, and fraud prevention, security, and compliance purposes.</p>
                 </section>
 
                 <section class="section" id="retention-deletion">
                     <span class="section-number">07</span>
                     <h2>Data Retention and Deletion</h2>
-                    <p>
-                        Locally stored Tap Rush game data remains on the device until it is overwritten by normal game use,
-                        cleared through Android app-storage settings, or removed when the application is uninstalled.
-                    </p>
-                    <p>
-                        Northframe Technologies does not maintain a Tap Rush account database containing this local gameplay
-                        information. Data processed by Google through Google Mobile Ads is retained and handled according to
-                        Google's applicable policies and user settings.
-                    </p>
+                    <p>Locally stored Tap Rush game data remains on the device until it is overwritten by normal game use, cleared through Android app-storage settings, or removed when the application is uninstalled. Android backup is disabled for Tap Rush in this release, so Tap Rush does not intentionally restore this local gameplay state through Android Auto Backup after uninstall/reinstall.</p>
+                    <p>Northframe Technologies does not maintain a Tap Rush account database containing this local gameplay information and does not provide a remote account-data deletion mechanism because Tap Rush does not provide user accounts. Users can remove Tap Rush local game data through Android app-storage controls or by uninstalling the app.</p>
+                    <p>Data processed by Google through Google Mobile Ads is retained, deleted, and otherwise handled according to Google's applicable policies, legal requirements, product configuration, and user settings.</p>
                 </section>
 
                 <section class="section" id="security">
                     <span class="section-number">08</span>
                     <h2>Security</h2>
-                    <p>
-                        Tap Rush does not operate a remote game-account or cloud-score database in this release.
-                        Advertising-related network requests rely on the security mechanisms provided by the Google Mobile
-                        Ads SDK, including encrypted transport as documented by Google.
-                    </p>
+                    <p>Tap Rush does not operate a remote game-account or cloud-score database in this release. Advertising-related network requests rely on the security mechanisms provided by the Google Mobile Ads SDK, including encrypted transport using TLS as documented by Google.</p>
                 </section>
 
                 <section class="section" id="children">
                     <span class="section-number">09</span>
-                    <h2>Children's Privacy</h2>
-                    <p>
-                        Tap Rush does not require users to provide personal information and does not provide a user-account
-                        system. The intended Google Play audience for this release begins at age 13. Advertising and privacy
-                        functionality will be configured in accordance with the audience selected in Google Play Console and
-                        applicable Google policies.
-                    </p>
+                    <h2>Children's Privacy and Intended Audience</h2>
+                    <p><strong>Tap Rush is intended for users aged 18 and over for this Google Play release.</strong> The Google Play listing is configured to restrict access for users Google determines to be minors. Tap Rush is not directed to children and does not provide a user-account system.</p>
+                    <p>If the intended audience, advertising configuration, or applicable platform requirements materially change in a future release, Northframe Technologies will review and update the relevant audience, privacy, and advertising controls.</p>
                 </section>
 
                 <section class="section" id="changes">
                     <span class="section-number">10</span>
                     <h2>Changes to This Privacy Policy</h2>
-                    <p>
-                        Northframe Technologies may update this Privacy Policy when Tap Rush, its advertising functionality,
-                        privacy features, applicable laws, or platform requirements change. Any revision will be published
-                        on this page together with an updated revision date.
-                    </p>
+                    <p>Northframe Technologies may update this Privacy Policy when Tap Rush, its advertising functionality, privacy features, applicable laws, or platform requirements change. Any revision will be published on this page together with an updated revision date.</p>
                 </section>
 
                 <section class="section" id="contact">
                     <span class="section-number">11</span>
                     <h2>Contact Us</h2>
                     <div class="contact-box">
-                        <p>
-                            If you have questions about this Privacy Policy, Tap Rush, or privacy-related matters, please contact:
-                        </p>
-                        <p>
-                            <strong>Northframe Technologies</strong><br>
-                            Email: <a href="mailto:northframetechnologies@gmail.com">northframetechnologies@gmail.com</a>
-                        </p>
+                        <p>If you have questions about this Privacy Policy, Tap Rush, or privacy-related matters, please contact:</p>
+                        <p><strong>Northframe Technologies</strong><br>Email: <a href="mailto:northframetechnologies@gmail.com">northframetechnologies@gmail.com</a></p>
                     </div>
                 </section>
             </div>
@@ -706,25 +307,19 @@
                 <a href="#changes">10 · Policy Changes</a>
                 <a href="#contact">11 · Contact</a>
             </nav>
-            <p class="toc-note">
-                This page is the public privacy-policy resource for Tap Rush by Northframe Technologies.
-            </p>
+            <p class="toc-note">This page is the public privacy-policy resource for Tap Rush by Northframe Technologies.</p>
         </aside>
     </div>
 </main>
 
 <footer>
     <div class="site-shell footer-row">
-        <div>
-            <span class="footer-brand">Northframe Technologies</span><br>
-            <span>© 2026 Northframe Technologies. All rights reserved.</span>
-        </div>
+        <div><span class="footer-brand">Northframe Technologies</span><br><span>© 2026 Northframe Technologies. All rights reserved.</span></div>
         <div class="footer-links">
             <a href="https://jayryan6129.github.io/">Developer Site</a>
             <a href="mailto:northframetechnologies@gmail.com">Support</a>
         </div>
     </div>
 </footer>
-
 </body>
 </html>
